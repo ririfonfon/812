@@ -37,8 +37,8 @@ unsigned int ms; // Integration ("shutter") time in milliseconds
 
 /////////////////////////////////////////lib/////////////////////////////////////////
 #include <WiFi.h>
-#include <WiFiUdp.h>
-#include <ArtnetWifi.h>//https://github.com/rstephan/ArtnetWifi
+//#include <WiFiUdp.h>
+//#include <ArtnetWifi.h>//https://github.com/rstephan/ArtnetWifi
 unsigned long lastRefresh = 0;
 #define REFRESH 10
 
